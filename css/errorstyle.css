@@ -1,0 +1,16 @@
+/* styling for error msgs */
+span#existmsg {
+    font-size: 14px;
+    color: red;
+    position: relative;
+    left: 26px;
+}
+span#insert{
+    font-size: 14px;
+    color: green;
+    position: relative;
+    left: 26px;
+}
+
+
+

@@ -1,0 +1,19 @@
+span#existmsgsignup {
+    font-size: 10px;
+    color: red;
+    position: relative;
+    left: 16px;
+  
+  }
+  span#insertmsgsignup {
+    font-size: 12px;
+    color: green;
+    position: relative;
+    left: 10px;
+}
+input#imagetoupload {
+  margin-left: 12px;
+}
+
+
+  

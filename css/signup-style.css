@@ -1,0 +1,293 @@
+/* CSS reset */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;    
+
+}
+
+/* styling for global container */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 850px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F2F5;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+/* styling for form container */
+.form-container{
+  background-color: #606770;
+  width:420px;
+  height: auto;
+  background-color: white;
+  padding: 20px 0px;
+  padding-left: 0px;
+  box-shadow: 5px 5px 50px #d6d6d6;
+  border-radius: 8px;
+}
+
+/* stytle for logo */
+#img{
+    width: 285px;
+    height:100px;
+}
+/* styling for heading text */
+.heading-text{
+    
+    
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+  text-align: center;
+  font-weight: bolder;
+   
+}
+.plain-text{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #606770;
+ 
+    border-bottom: 1px solid #bdc7d8;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+/* styling for input fields */
+td {
+    display: inline-block;
+}
+.row-field{
+    width: 173px;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0px 8px 0px 7px;
+  padding-left: 15px;
+  border-radius: 5px;
+border: 1px solid  #bdc7d8;
+margin-bottom: 8px;
+height: 35px;
+
+}
+.input-field{
+
+    width: 169%;
+    line-height: 30px;
+    
+ 
+}
+.dob-field{
+    width: 122px !important;
+    padding:4px;
+}
+.radio-field{
+    width: 105px !important;
+}
+.pronoun{
+    width: 135%;
+    padding:5px;
+}
+
+.radio-circle{
+    position: relative;
+    left: 33px;
+    top: 2px;
+
+}
+
+
+/* styling for inner text of the form */
+#form-bottom-txt{
+font-size: 11px;
+color: #777777;
+padding: 8px;
+}
+#pronoun{
+    font-size: 12px;
+    color: #777777;
+    position: relative;
+    bottom: 5px;
+    padding-left: 8px;
+}
+.label{
+    font-size: 12px;
+    padding: 8px;
+    color: #606770;
+}
+/* styling for signup button */
+.signup-btn{
+ font-size: 18px;
+ font-weight: bolder;
+
+ background-color:#00a400;
+ color: #fff;
+ padding:7px 50px;
+display: flex;
+margin: 10px 115px;
+border: none;
+border-radius: 5px;
+}
+
+.a-bottom{
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    color: #1877f2;
+}
+/* alert for errors */
+/* Global Settings */
+a{
+    text-decoration: none;
+    
+}
+
+/* Footer Styling starts from here */
+
+.footer{
+
+    background-color: white;
+    width: 200%;
+    padding-top: 30px;
+    padding-left:200px;
+    height: auto;
+}
+.footer-anchor{
+    font-size: 12px;
+    color: grey;
+    font-family: Arial;
+}
+    
+
+.a-elem{
+    padding: 0px 6px 0px 6px;
+    color: #385898;
+}
+#footer-hr{
+    border-bottom: 1px solid #ccd0d5;
+    width:34%;
+    margin-top: 10px;
+
+    margin-bottom: 15px;
+    position: relative;
+    left:5px;
+
+}
+.cr{
+    margin-top:20px;
+    padding-bottom: 10px;
+    
+}
+/*------------------------ media queries------------------------------*/
+
+/* For Mobile */
+@media only screen and (max-width: 767px)
+   {
+    .container{
+    
+    
+        width:100%;
+        height: 650px;
+      }
+      .form-container{
+        width: 310px;
+        
+ 
+    
+      }
+  /* styling for heading text */
+  .heading-text{
+      font-size: 20px;
+
+      
+  
+    
+     
+  }
+  
+  /* Styling for input fields */
+      .row-field{
+          font-size: 12px;
+          line-height: 24px;
+          height: auto;
+          width: 120px;
+          padding-left: 10px;
+          margin-left: 10px;
+      }
+      .input-field{
+          width: 153%;
+      }
+       .dob-field{
+           width: 80px !important;
+       }
+       .radio-field{
+          width: 70px !important;
+      }
+      .radio-circle{
+  
+          left: 12px;
+  
+      }
+      .pronoun{
+          width: 115%;
+          padding:5px;
+      }
+  
+      #form-bottom-txt{
+          font-size: 11px;
+      
+          padding-left: 8px;
+        width: 90%;
+  
+          }
+  /* Styling for signup button */
+          .signup-btn{
+            
+              padding:7px 10px;
+              font-size: 14px;
+           
+             
+          }
+  
+   /* Styling for footer */
+     .footer{
+         padding-left: 0px;
+         padding: 20px;
+      
+         width: 88%;
+         height: 300px;
+    
+         font-size: 8px!important;
+     }
+    
+    #footer-hr{
+        width:100%;
+    
+    }
+
+}
+
+/* For tablet */
+@media only screen and (min-width: 768px) and (max-width:1024px){
+   .container{
+       height:750px;
+   }
+    .footer{
+        padding: 20px;
+      
+        width:88%;
+        height: 650px;
+    }
+    #footer-hr{
+        width:100%;
+    
+    }
+
+
+}

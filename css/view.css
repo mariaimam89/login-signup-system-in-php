@@ -1,0 +1,86 @@
+h1{
+  color: black;
+  text-align: center;
+
+}
+/* styling of table */
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x:auto;
+  height: auto;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #474747;
+  color: white;
+}
+
+/* styling of pagination */
+.pagination{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  color: black;
+
+
+  text-decoration: none;
+  margin: 40px;
+}
+li a{
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #4f7bb6;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: #264079;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {background-color: rgb(99, 99, 99);}
+
+/* styling for alerts */
+.alert {
+  padding: 10px;
+  background-color:  white;
+  color: #4f7bb6;
+  margin: 10px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: #4f7bb6;
+  font-weight: bold;
+  float: right;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.del-btn{
+background-color: crimson;
+color: white;
+border-radius: 5px;
+padding: 5px 10px;
+}
+button#logout-btn{
+  float: right;
+}
+
+a{
+  text-decoration: none;
+}
